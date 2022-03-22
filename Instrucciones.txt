@@ -1,0 +1,24 @@
+1. Cargar el código a un arduino mega. 
+Los pines activos son los digitales que van del 2 al 26, cada uno es un semitono.
+
+2. Descargar e instalar loopMIDI:
+https://www.tobias-erichsen.de/software/loopmidi.html
+
+3. Descargar e instalar hairlessMIDI:
+https://projectgus.github.io/hairless-midiserial/
+
+3. Descargar e instalar ableton live:
+https://www.ableton.com/en/trial/
+
+4. Correr loopMIDI y agregar un puerto virtual.
+Para agregar el puerto, pulsa el boton + en la parte de abajo/izquierda de la interfaz.
+
+5. Correr hairlessMIDI y seleccionar en el desplegable izquierdo el puerto del arduino.
+En el desplegable superior derecho, seleccionar el pueto virtual creado.
+Asegúrate que la casilla superior izquierda esta seleccionada (serial algo).
+
+6. Correr ableton y aceptar la opción "sin exportar/guardar" .
+Arrastrar un sonido de la sección izquierda al centro (MIDI 1)
+
+Ya debería funcionar el piano.
+
